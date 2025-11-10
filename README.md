@@ -1,3 +1,5 @@
+[![CI](https://github.com/erwinacher/rust-askama-axum-wasm-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/erwinacher/rust-askama-axum-wasm-poc/actions/workflows/ci.yml)
+
 # rust-askama-axum-wasm-poc
 
 > Proof of Concept for Rust + Askama templates + Axum server + WASM frontend
