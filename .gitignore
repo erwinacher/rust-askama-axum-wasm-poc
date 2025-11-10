@@ -1,0 +1,44 @@
+# --- rust ---
+/target/
+/debug/
+/release/
+**/*.rs.bk
+
+# cargo stuff
+/.cargo/
+/rustfmt-backups/
+
+# askama cache
+.askama-cache/
+
+# wasm build out
+/pkg/
+wasm-pack.log
+wasm-bindgen*
+
+# trunk style output (if you add trunk later which 99% you will)
+/dist/
+
+# static wasm bundles (generated)
+# allow static/** but ignore generated wasm artifacts inside static
+static/*.wasm
+static/*.js
+static/*.map
+
+# node based toolchains possibly used for wasm build later
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+bun.lockb
+
+# dotenv
+.env*
+!.env.example
+
+# editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
