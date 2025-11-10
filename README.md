@@ -12,10 +12,10 @@ This is a minimal demonstration project showing how to integrate:
 
 ### Project Structure
 
-src/ -> server code
-templates/ -> askama templates location, default for askama
-wasm/ -> wasm rust crate (compiled to /static/pkg)
-static/ -> static assets + wasm bundle output
+- src/ -> server code
+- templates/ -> askama templates location, default for askama
+- wasm/ -> wasm rust crate (compiled to /static/pkg)
+- static/ -> static assets + wasm bundle output
 
 ### Requirements
 
