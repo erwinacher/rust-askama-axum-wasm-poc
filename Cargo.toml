@@ -7,7 +7,7 @@ description = "Proof of concept for a Rust + Askama + Axum + WASM integration"
 license = "MIT"
 repository = "https://github.com/erwinacher/genai-wasm-poc"
 readme = "README.md"
-keywords = ["genai", "wasm", "axum", "poc"]
+keywords = ["wasm", "axum", "poc"]
 categories = ["web-programming", "wasm", "rust", "axum", "askama"]
 
 
