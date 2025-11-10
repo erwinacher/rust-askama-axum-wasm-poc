@@ -1,8 +1,8 @@
 # --- rust ---
-/target/
-/wasm/target
-/debug/
-/release/
+target/
+wasm/target
+debug/
+release/
 **/*.rs.bk
 
 # cargo stuff
